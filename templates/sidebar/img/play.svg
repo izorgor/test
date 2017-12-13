@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="playBtn" viewBox="0 0 30 30">
+    <g style="" class="playLayer">
+        <g style="" class="currentLayer">
+            <path fill="#ffffff" stroke-width="8"
+                  d="M6.095241302193102,22.24486673174804 L14.999999381857211,7.755133590664155 L23.90475746152137,22.24486673174804 L6.095241302193102,22.24486673174804 z"
+                  style="color: rgb(255, 255, 255);" class=""
+                  transform="rotate(90.1378402709961 14.999999046325684,15.000000000000002) " fill-opacity="1"/>
+        </g>
+    </g>
+</symbol>
+
+</svg>

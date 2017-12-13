@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+    <symbol id="pauseBtn">
+        <g style="" class="pausedLayer">
+            <rect fill="#ffffff" stroke-width="7" x="10.220883540809155" y="5" width="4" height="20" />
+            <rect fill="#ffffff" stroke-width="7" x="18.253011614084244" y="5" width="4" height="20" />
+        </g>
+    </symbol>
+</svg>
