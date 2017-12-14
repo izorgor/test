@@ -8,35 +8,38 @@
 
 <h1 id="headline">Sidebar Creator</h1>
 <div class="col-sm-6">
-    <form action="" id="needs-validation" novalidate>
     <div class="form-group">
         <label>Video:</label>
         <input class="form-control" id="videoUpload" name="videoUpload" type="file" required>
     </div>
-        <div class="form-group">
+    <div class="form-group">
         <label>Background:</label>
         <input class="form-control" id="backgroundImg" name="upload" type="file"/>
     </div>
     <div class="form-group">
-        <label for="">Click Through Url:</label>
+        <label>Click Through Url:</label>
         <input class="form-control" id="clickUrl" type="input"/>
     </div>
     <div class="form-group">
-        <label for="">Svg Color:</label>
+        <label>Svg Color:</label>
         <input class="form-control" id="svgColor" name="svgColor" type="input"/></div>
     <div class="form-group">
-        <label for="">Video Position:</label>
+        <label>Video Position:</label>
         <input class="form-control" id="videoPosition" type="input" name="videoPosition"/>
     </div>
+    <div class="form-group">
+        <label>Background Color:</label>
+        <input class="form-control" id="backgroundColor" type="input" name="backgroundColor"/>
+    </div>
+    <button id="createPreview">CREATE PREVIEW</button>
+    <button id="createTag">CREATE TAG</button>
 </div>
-<div class="col-sm-6">
-    <iframe width="100%" height="100%" scrolling="no" src="sidebar/index.html" frameborder="0" allowfullscreen></iframe>
+<div class="col-sm-6 previewBox">
+    <iframe id="preview" width="100%" height="800" scrolling="no" src="" frameborder="0" allowfullscreen></iframe>
     <div class="progress">
         <div class="progress-bar" role="progressbar"></div>
     </div>
 </div>
-</form>
-<button id="createPreview">CREATE PREVIEW</button>
 <script type="text/javascript" src="javascripts/sidebar.js"></script>
 </body>
 </html>

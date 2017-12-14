@@ -1,4 +1,5 @@
 /* grunt-remove-template */
+/*
 var templateOptions = {
     video : "https://stream.adspot.ch/ch.audi/201609/sitebar_video_de/publish/web/media/sitebar.mp4",
     image : "http://placehold.it/500x1000",
@@ -6,6 +7,7 @@ var templateOptions = {
     svgColor : "white",
     backgroundColor : "red"
 };
+*/
 /* grunt-remove-template-end */
 
 
@@ -258,6 +260,10 @@ function expandReady(status) {
     window.sidebar = new SideBar(templateOptions);
 }
 
+/*
 if (window === top.window) {
     expandReady();
 }
+*/
+expandReady();
+
