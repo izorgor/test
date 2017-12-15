@@ -567,3 +567,69 @@ body #content button {
 #createPreview, #createTag {
     width: 100%;
 }
+
+input[type=file].uploadBtn, #videoPosition {
+    display: none;
+}
+
+body #content .upload-button {
+    width: 100px;
+    padding: 5px !important;
+    font-size: 14px;
+    margin: 0;
+}
+
+#volume {
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    background: #444;
+    box-shadow: inset 0 0 15px #000;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#volume .vol-box {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: -25px;
+    right: 0;
+
+}
+
+#volume .control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29.6396%;
+    height: 30px;
+    background: #3498db;
+    box-shadow: inset 0 0 2px #000;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#volume .control .knob {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    height: 30px;
+    width: 10px;
+    background: #FFF;
+    box-shadow: 0 0 1px #000;
+}
+
+body .sp-preview {
+    width: 97%;
+}
+
+.sp-replacer {
+    width: 100%;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}

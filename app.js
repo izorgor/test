@@ -52,7 +52,9 @@ app.get('/create', function (req, res) {
     '        image : "img/background.jpg",\n' +
     '        url : "' + req.query.clickUrl + '",\n' +
     '        svgColor : "' + req.query.svgColor + '",\n' +
-    '        backgroundColor : "' + req.query.backgroundColor + '"\n' +
+    '        backgroundColor : "' + req.query.backgroundColor + '",\n' +
+    '        videoPosition : "' + req.query.videoPosition + '"\n' +
+
     '    };\n' +
     '</script>\n' +
     '\n' +

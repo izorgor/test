@@ -9,15 +9,13 @@ $(function () {
   $('#create').on('click', function () {
     $('#loading-image').show();
     var parameters = {choosed: $('.active').attr('id')};
-
+    console.log(parameters.choosed);
     $.get('/copy', parameters, function (data) {
-      console.log('imam data');
       $('#content').fadeOut('fast', function () {
         $('#content').html(data);
         $('iframe').attr('src', parameters.choosed);
         $('#loading-image').hide();
         $('#content').fadeIn('slow');
-        $('#backgroundImg').val(' ');
       });
     });
   });

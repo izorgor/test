@@ -91,7 +91,7 @@ svg{
 }
 
 .videoWrapper{
-    display: table-cell;
-    vertical-align: middle;
+    position: absolute;
+    top: 30%;
 }
 
